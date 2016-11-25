@@ -1,0 +1,22 @@
+{
+  "name": "inimedia/user-administration",
+  "description": "Laravel package for common user administration",
+  "authors": [
+    {
+      "name": "Adhe Widianjaya",
+      "email": "adwidianjaya@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Inimedia\\UserAdministration\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.3.*",
+    "zizaco/entrust": "5.2.x-dev"
+  },
+  "minimum-stability": "dev"
+}
