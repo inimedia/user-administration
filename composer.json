@@ -10,7 +10,9 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Inimedia\\UserAdministration\\": "src/"
+      "Inimedia\\UserAdministration\\": "src/",
+      "Inimedia\\UserAdministration\\Model\\": "model/",
+      "Inimedia\\UserAdministration\\Seeds\\": "seeds/"
     }
   },
   "require": {
